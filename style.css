@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Images/bg-intro-desktop.png);
+    background-color: rgb(250, 1, 134);
+    align-items: center;
+}
+.container {
+    margin:40px;
+    padding: 20px;
+    color: white;
+    transform: translate(60px, 200px);
+}
+.container h1 {
+    font-size:3em;
+    padding: 10px;
+}
+.form-one{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    position:relative;
+    left: 70%;
+    flex-wrap: wrap;
+}
+.form-one input{
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 15rem;
+}
+.form-one button{
+    padding:10px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+    width: 100%;
+}
+.try-sec{
+    display: flex;
+    background-color: rgb(106, 22, 185);
+    width: 315px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 71%;
+    justify-content: space-around;
+}
+   
+@media screen and (max-width:1000px) {
+    .container.form-one{
+        flex-direction: column;
+    }
+
+    
+}
+@media screen and (max-width:600px) {
+    .container.form-one.try-sec{
+        flex-direction:column;
+    }
+    
+}
+        
+    
